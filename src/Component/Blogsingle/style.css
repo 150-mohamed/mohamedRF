@@ -1,0 +1,145 @@
+.postimge{
+    display: flex;
+    align-items: center;
+}
+.blogPost{
+    width: 80%;
+    margin-right: 20px;
+}
+.plogPost{
+    width: 100%;
+}
+.CATEGORIES{
+    width: 20%;
+}
+.blogpost img {
+    width: 100%;
+}
+.blogpost p {
+    width: 100%;
+    font-size: smaller;
+    font-style:oblique;
+    color: #888;
+}
+.post{
+    margin-top: 10px ;
+}
+.post .container {
+    display: flex;
+}
+.imgepost{
+    background-image: url(/public/images/Blog/gallery-thumb1.jpg);
+    font-size: 10px;
+    width: 20px;
+    height: 40px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center center;
+}
+.imgepost p{
+    color: red;
+}
+.textpost h2 {
+    font-size: small;
+}
+.textpost p{
+    font-size: smaller;
+}
+.CATEGORIES{
+    background-color: rgba(136, 136, 136, 0.3);
+    margin-top: 10px;
+    border: 1px solid #888;
+    justify-content: center;
+    align-items: center;
+}
+.CATEGORIES h4 {
+    margin-left: 20px;
+    font-size: 12px;
+}
+.CATEGORIES h5 {
+    margin-left: 20px;
+    font-size: 10px;
+    font-style: oblique;
+    color: red;
+}
+.boxe-imagess{
+    display: flex;
+}
+.boxee .boxe-imags img{
+    width: 100%; 
+    background-size: cover;
+    background-position: center centar;
+    border: 1px solid #888;
+}
+.boxe-imags{
+    margin: 5px;
+}
+.skilsimge{
+    margin-right: 10px;
+}
+.skilsimge img {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid #888;
+}
+.skils{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Skilsee h5{
+    font-size: 8px;
+}
+.Skilsee p{
+    font-size: 10px;
+    color: #888;
+}
+.drop {
+    padding: 50px 0;
+    text-align: center
+}
+.drop form {
+    width: 70%;
+    margin: auto;
+}
+.drop form input {
+    box-sizing: border-box;
+    outline: 0;
+    padding: 5px;
+    margin-bottom: 10px
+}
+.drop form .form-input {
+    overflow: hidden
+}
+.drop form .form-input input {
+    width: 49%;
+}
+.drop form .form-input input[type=text] {
+    float: left
+}
+
+.drop form .form-input input[type=email] {
+    float: right
+}
+
+.drop form input.sub {
+    width: 100%;
+}
+
+.drop form textarea {
+    width: 100%;
+    outline: 0;
+    background: #ccc
+}
+
+.drop form input[type=submit] {
+    width: 60%;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #888;
+    cursor: pointer
+}
+.drop .container {
+    display:block;
+}

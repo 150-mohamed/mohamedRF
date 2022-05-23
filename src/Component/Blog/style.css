@@ -1,0 +1,76 @@
+.postimge{
+    display: flex;
+    align-items: center;
+}
+.blogPost{
+    width: 80%;
+    margin-right: 20px;
+}
+.plogPost{
+    width: 100%;
+}
+.CATEGORIES{
+    width: 20%;
+}
+.blogpost img {
+    width: 100%;
+}
+.blogpost p {
+    width: 100%;
+    font-size: smaller;
+    font-style:oblique;
+    color: #888;
+}
+.post{
+    margin-top: 10px ;
+}
+.post .container {
+    display: flex;
+}
+.imgepost{
+    background-image: url(/public/images/Blog/gallery-thumb1.jpg);
+    font-size: 10px;
+    width: 20px;
+    height: 40px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center center;
+}
+.imgepost p{
+    color: red;
+}
+.textpost h2 {
+    font-size: small;
+}
+.textpost p{
+    font-size: smaller;
+}
+.CATEGORIES{
+    background-color: rgba(136, 136, 136, 0.3);
+    margin-top: 10px;
+    border: 1px solid #888;
+    justify-content: center;
+    align-items: center;
+}
+.CATEGORIES h4 {
+    margin-left: 20px;
+    font-size: 12px;
+}
+.CATEGORIES h5 {
+    margin-left: 20px;
+    font-size: 10px;
+    font-style: oblique;
+    color: red;
+}
+.boxe-imagess{
+    display: flex;
+}
+.boxee .boxe-imags img{
+    width: 100%; 
+    background-size: cover;
+    background-position: center centar;
+    border: 1px solid #888;
+}
+.boxe-imags{
+    margin: 5px;
+}

@@ -1,0 +1,25 @@
+.aboutomg{
+    display: flex;
+}
+.imgestyle img {
+    width: 100%;
+}
+.imgestyle{
+    position: relative;
+}
+.aboutH h2 {
+    font-size: 8px;
+    top:10px;
+    margin-left: 20px;
+}
+.aboutH{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.aboutomge p{
+    font-size: 10px;
+}
+.aboutomge{
+    margin-right: 20px;
+}
